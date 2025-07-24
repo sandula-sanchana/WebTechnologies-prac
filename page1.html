@@ -436,7 +436,7 @@
 <!--<a href="assets/pdf/java_tutorial.pdf" download> java book .. click here</a>-->
 
 <br><br>
-<form>
+<form id="form1">
     <input>
     <input type="button" value="click me">
     <input type="checkbox" value="submit">
@@ -460,15 +460,15 @@
     <br><br><br><br><br>
 
 
-    <form>
+    <form action="page3.html" method="get">
         <div>
         <label for="email">email</label>
-        <input type="email" id="email" >
+        <input type="email" id="email" name="email" >
         </div>
         <br>
         <div>
         <label for="password">password</label>
-        <input type="password" id="password" >
+        <input type="password" id="password" name="password" >
         </div>
         <br>
         <input type="reset">
@@ -477,6 +477,26 @@
 
 
 
+</form>
+
+<form>
+    <div>
+    <label >First name:</label>
+    <br>
+    <input type="text" >
+
+    <br>
+    <div>
+    <label >Last name:</label>
+    <br>
+    <input type="text" >
+    </div>
+    <br>
+        <div>
+    <label >address:</label>
+            <br>
+    <textarea rows="10" cols="80"></textarea>
+        </div>
 </form>
 
 <script>
