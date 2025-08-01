@@ -38,6 +38,31 @@ input:focus{
     background-color: pink;
 }
 
-li:first-child{
+/*li:first-child{*/
+/*    color: red;*/
+/*}*/
+
+/*li:last-child{*/
+/*    color: red;*/
+/*}*/
+
+/*li:nth-child(2){*/
+/*    color: red;*/
+/*}*/
+
+/*li:nth-child(n+4){*/
+/*    color: red;*/
+/*}*/
+
+li:nth-child(3n-1){
     color: red;
 }
+h2::after{
+    content: "-hello";
+    color: red;
+}
+h2::before{
+    content: "Advance-";
+    color: red;
+}
+
