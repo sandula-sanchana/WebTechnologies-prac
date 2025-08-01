@@ -13,3 +13,31 @@ p{
 div{
     background-color: lightblue;
 }
+
+[href ^="https"]{
+    background-color: yellow;
+}
+
+[href ^="http:"]{
+    background-color: peru;
+}
+[href$="lk"]{
+    background-color: olive;
+}
+
+h2[class]{
+    color: purple;
+}
+
+h2:hover{
+    color: red;
+}
+
+
+input:focus{
+    background-color: pink;
+}
+
+li:first-child{
+    color: red;
+}
