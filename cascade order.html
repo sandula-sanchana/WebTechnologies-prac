@@ -6,19 +6,25 @@
 
     <style>
 
-        .myClass { /* 0,0,1,0 */
-            color: hotpink;
-        }
+        /*.myClass { !* 0,0,1,0 *!*/
+        /*    color: hotpink;*/
+        /*}*/
 
-        h1 { /* 0,0,0,1 */
-            color: skyblue;
-        }
+        /*h1 { !* 0,0,0,1 *!*/
+        /*    color: skyblue;*/
+        /*}*/
 
-        #myHeading { /* 0,1,0,0 */
-            color: yellow;
-        }
+        /*#myHeading { !* 0,1,0,0 *!*/
+        /*    color: yellow;*/
+        /*}*/
 
-        * { /* 0,0,0,0 */
+        /** { !* 0,0,0,0 *!*/
+        /*    color: red;*/
+        /*}*/
+        section>h1{
+            color: greenyellow;
+        }
+        body > section > h1{
             color: red;
         }
 
@@ -27,7 +33,10 @@
 <body>
 
 <!-- 1,0,0,0 -->
-<h1 id="myHeading" class="myClass" style="color: greenyellow;">Hello CSS!</h1>
+<section>
+    <h1 id="myHeading" class="myClass">Hello CSS!</h1>
+</section>
+
 
 </body>
 </html>
