@@ -78,7 +78,10 @@ ol li{
 ol li:nth-child(1){
     color:gold;
 }
-h4+div{
+/*h4+div{*/
+/*    color: purple;*/
+/*}*/
+h4~div{
     color: purple;
 }
 
