@@ -66,3 +66,19 @@ h2::before{
     color: red;
 }
 
+input[type="file"]::file-selector-button{
+    background-color: pink;
+}
+h1,h2{
+    color: purple;
+}
+ol li{
+    background-color: olive;
+}
+ol li:nth-child(1){
+    color:gold;
+}
+h4+div{
+    color: purple;
+}
+
