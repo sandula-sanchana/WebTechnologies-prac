@@ -1,6 +1,6 @@
 div{
-    width:100px;
-    height: 100px;
+   width: 50vw;
+    height: 50vh;
 }
 
 #div1{
@@ -20,8 +20,6 @@ div{
     position: absolute;
     left: 0;
     right: 0;
-    margin: auto;
-
 
 }
 #div4{
