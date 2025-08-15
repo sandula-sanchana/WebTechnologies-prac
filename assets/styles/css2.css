@@ -6,17 +6,23 @@ div{
 #div1{
     background-color: hotpink;
     position: absolute;
-    left: 0;
+    right: 0;
+    bottom: 0;
 }
 #div2{
     background-color: green;
     position: absolute;
     top: 0;
+    right: 0;
 }
 #div3{
     background-color:gold;
     position: absolute;
+    left: 0;
     right: 0;
+    margin: auto;
+
+
 }
 #div4{
     background-color: blue;
