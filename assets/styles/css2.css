@@ -3,6 +3,18 @@ div{
     height: 50vh;
 }
 
+.circle{
+    background-color: wheat;
+    width: 160px;
+    height: 160px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
 #div1{
     background-color: hotpink;
     position: absolute;
@@ -28,10 +40,83 @@ div{
     bottom: 0;
 }
 
-.container{
-    width: 500px;
-    aspect-ratio: 1 / 1;
-    top:50px;
-    border:3px solid gold;
-    position: relative;
+#circle1{
+    position: absolute;
+
 }
+#circle2{
+    position: absolute;
+
+}
+#circle3{
+    position: absolute;
+
+}
+#circle4{
+    position: absolute;
+
+}
+.squre{
+    background-color: darkred;
+    width: 60px;
+    height: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+
+#middle-squre{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+#middle-circle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: darkred;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+ #side1{
+     left:0;
+     background-color: darkred;
+ }
+
+  .side-circle{
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      position: absolute;
+  }
+
+ #side2{
+     right: 0;
+     background-color: darkred;
+ }
+
+ #side3{
+     bottom: 0;
+     background-color: darkred;
+ }
+
+ #side4{
+     bottom: 0;
+     right:0;
+     background-color: darkred;
+ }
+
