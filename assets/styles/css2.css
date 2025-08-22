@@ -20,12 +20,14 @@ div{
     position: absolute;
     right: 0;
     bottom: 0;
+
 }
 #div2{
     background-color: green;
     position: absolute;
     top: 0;
     right: 0;
+
 }
 #div3{
     background-color:gold;
@@ -33,11 +35,13 @@ div{
     left: 0;
     right: 0;
 
+
 }
 #div4{
     background-color: blue;
     position: absolute;
     bottom: 0;
+
 }
 
 #circle1{
@@ -94,27 +98,30 @@ div{
 
  #side1{
      left:0;
+     border-bottom-right-radius: 100%;
      background-color: darkred;
  }
 
   .side-circle{
-      width: 70px;
-      height: 70px;
-      border-radius: 100%;
+      width: 100px;
+      height: 100px;
       position: absolute;
   }
 
  #side2{
      right: 0;
+     border-bottom-left-radius: 100%;
      background-color: darkred;
  }
 
  #side3{
      bottom: 0;
+     border-top-right-radius: 100%;
      background-color: darkred;
  }
 
  #side4{
+     border-top-left-radius: 100%;
      bottom: 0;
      right:0;
      background-color: darkred;
