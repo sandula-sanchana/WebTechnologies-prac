@@ -7,8 +7,14 @@
         #grid-section{
             width: 1000px;
             height: 600px;
-            border: 1px solid black;
+            border: 3px solid black;
             display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        div:nth-child(1) {
+            background-color: hotpink;
+            grid-column: 1/3;
         }
 
         section>div{
@@ -19,6 +25,7 @@
 <body>
 
 <Section id="grid-section">
+    <div class="grid"></div>
     <div class="grid"></div>
     <div class="grid"></div>
     <div class="grid"></div>
