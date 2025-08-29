@@ -1,0 +1,90 @@
+header>img{
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 20px;
+    position: absolute;
+}
+header{
+    border-bottom: 2px solid #000;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    top: 0;
+}
+nav{
+    position: absolute;
+    right: 20px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+nav ul{
+    list-style: none;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: grey;
+}
+footer > p {
+   color: white;
+    text-align: center;
+}
+
+.left-side-div{
+    width: 20vw;
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    bottom: 8vh;
+    background-color: blue;
+}
+.left-side-div > nav{
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+}
+.left-side-div > nav > ul li{
+    margin-bottom: 10px;
+}
+.left-side-div > nav > ul  li a{
+    color: white;
+
+}
+
+#right-side-section{
+    position: absolute;
+    top: 10vh;
+    bottom: 8vh;
+    right: 0;
+    left: 22vw;
+    overflow-y: auto;
+}
+
+#right-side-section > div div{
+    position: relative;
+    float: none;
+    display: inline-block;
+    margin: 1px;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+}
+.right-side-main-div{
+    position: relative;
+    margin: 20px;
+}
+#para-sec{
+    position: static;
+    clear: both;
+    box-sizing: border-box;
+
+}
+
+
