@@ -6,31 +6,47 @@
     <link rel="stylesheet" href="../../assets/lib/normalize.css">
     <style>
         section{
-            position: relative;
             width:600px;
             height:600px;
             background-color:limegreen;
-            /*display:flex;*/
-            /*flex-direction: column-reverse;*/
+            display:flex;
         }
         section > div{
-            position:absolute;
-            top:0;
-            left:0;
-            right:0;
-            bottom:0;
-            margin:auto;
             width: 150px;
-            aspect-ratio: 1/1;
+            height: 150px;
             background-color: yellow;
             border: 1px solid red;
+            box-shadow: 20px 20px 15px 20px teal;
+        }
+        div:nth-child(1){
+            align-self: flex-end;
+        }
+        div:nth-child(2){
+            align-self: center;
+        }
+        div:nth-child(3){
+            align-self: flex-end;
+        }
+        div:nth-child(4){
+            align-self: center;
+        }
+        div:nth-child(5){
+            align-self: flex-end;
+        }
+        div:nth-child(6){
+            align-self: center;
         }
     </style>
 </head>
 <body>
 
 <section>
-    <div></div>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+    <div>6</div>
 </section>
 
 </body>

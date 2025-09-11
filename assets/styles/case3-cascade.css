@@ -16,6 +16,7 @@ section{
     right: 0;
     margin: auto;
     background-color: transparent;
+    z-index: 10;
 }
 
 .ring-out{
@@ -30,6 +31,7 @@ section{
     right: 0;
     margin: auto;
     background-color: transparent;
+    z-index: 10;
 }
 
 .middle-circle{
@@ -43,6 +45,7 @@ section{
     right: 0;
     margin: auto;
     background-color: yellow;
+    z-index: 1;
 }
 
 div p{
