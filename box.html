@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/lib/normalize.css">
+    <style>
+
+        :root{
+            --box-color:#0277bd;
+        }
+        section{
+            width: 800px;
+            height: 600px;
+            outline: 4px solid black;
+            position: relative;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section>div{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            border-radius: 10px;
+            background:var(--box-color);
+            animation: box_move 3s ease-in-out infinite alternate;
+
+        }
+
+        @keyframes box_move {
+            0% {
+                margin-top: 0;
+                margin-left: 0;
+                transform: rotate(0deg);
+            }
+            25% {
+                margin-top: 0;
+                margin-left:600px;
+                transform: rotate(180deg);
+            }
+            50% {
+                margin-top: 500px;
+                margin-left: 600px;
+                transform: rotate(540deg);
+            }
+            75% {
+                margin-top: 500px;
+                margin-left: 0;
+                transform: rotate(720deg);
+            }
+            100% {
+                margin-top: 0;
+                margin-left: 0;
+                transform: rotate(900deg);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="box"></div>
+</section>
+</body>
+</html>
