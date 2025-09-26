@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../assets/lib/fontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="../assets/lib/normalize.css">
+    <style>
+        section{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: fit-content;
+
+        }
+        .span{
+            position: absolute;
+            top:0;
+            bottom: 0;
+            margin: auto;
+            width: fit-content;
+            height: fit-content;
+            font-size: 25px;
+        }
+        section>div{
+            margin: 30px 0;
+            position: relative;
+            width: 300px;
+            height: 80px;
+            color: white;
+            background-color: #00695c;
+            transition:left 2s ease ;
+            left: -210px;
+            border-radius: 0 10px 10px 0;
+            cursor: pointer;
+        }
+        section>div:hover{
+            left: 0;
+
+        }
+        .inside-div{
+            position: absolute;
+            width: fit-content;
+            height: fit-content;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<section>
+    <div><span class="span">Menu One</span><div class="inside-div"><i class="fa-solid fa-user fa-2xl"></i></div></div>
+    <div><span class="span">Menu two</span><div class="inside-div"><i class="fa-solid fa-user fa-2xl"></i></div></div>
+    <div><span class="span">Menu three</span><div class="inside-div"><i class="fa-solid fa-user fa-2xl"></i></div></div>
+    <div><span class="span">Menu four</span><div class="inside-div"><i class="fa-solid fa-user fa-2xl"></i></div></div>
+    <div><span class="span">Menu five</span><div class="inside-div"><i class="fa-solid fa-user fa-2xl"></i></div></div>
+</section>
+
+<script src="../assets/lib/fontAwesome/js/all.min.js">
+
+</script>
+</body>
+</html>

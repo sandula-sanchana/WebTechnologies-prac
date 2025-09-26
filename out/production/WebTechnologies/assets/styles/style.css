@@ -1,0 +1,87 @@
+/*h2{*/
+/*    color: red;*/
+/*    background-color: yellow;*/
+/*}*/
+
+#rustID{
+    color: red;
+}
+p{
+    color: blue;
+    background-color: pink;
+}
+div{
+    background-color: lightblue;
+}
+
+[href ^="https"]{
+    background-color: yellow;
+}
+
+[href ^="http:"]{
+    background-color: peru;
+}
+[href$="lk"]{
+    background-color: olive;
+}
+
+h2[class]{
+    color: purple;
+}
+
+h2:hover{
+    color: red;
+}
+
+
+input:focus{
+    background-color: pink;
+}
+
+/*li:first-child{*/
+/*    color: red;*/
+/*}*/
+
+/*li:last-child{*/
+/*    color: red;*/
+/*}*/
+
+/*li:nth-child(2){*/
+/*    color: red;*/
+/*}*/
+
+/*li:nth-child(n+4){*/
+/*    color: red;*/
+/*}*/
+
+li:nth-child(3n-1){
+    color: red;
+}
+h2::after{
+    content: "-hello";
+    color: red;
+}
+h2::before{
+    content: "Advance-";
+    color: red;
+}
+
+input[type="file"]::file-selector-button{
+    background-color: pink;
+}
+h1,h2{
+    color: purple;
+}
+ol li{
+    background-color: olive;
+}
+ol li:nth-child(1){
+    color:gold;
+}
+/*h4+div{*/
+/*    color: purple;*/
+/*}*/
+h4~div{
+    color: purple;
+}
+

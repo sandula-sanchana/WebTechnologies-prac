@@ -1,0 +1,66 @@
+section{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.ring-in{
+    position: fixed;
+    width: 230px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 20px solid blue;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.ring-out{
+    position: fixed;
+    width: 270px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 20px solid red;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: transparent;
+    z-index: 10;
+}
+
+.middle-circle{
+    position: absolute;
+    width: 230px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: yellow;
+    z-index: 1;
+}
+
+div p{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "JetBrains Mono", monospace;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+

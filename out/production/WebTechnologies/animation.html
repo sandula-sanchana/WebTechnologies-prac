@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            background:#0288d1;
+            animation: anime_1 2s ease-out  alternate;
+        }
+        @keyframes anime_1 {
+
+            from { background-color:#0277bd;
+             opacity: 0; }
+            to{ background-color: #01579b;
+                transform: skew(30deg,30deg) scaleX(3);
+                box-shadow: 20px 20px black;
+                opacity: 1;
+            }
+
+        }
+    </style>
+</head>
+<body>
+
+<div class="div"></div>
+<div class="div"></div>
+<div class="div"></div>
+<div class="div"></div>
+</body>
+</html>
