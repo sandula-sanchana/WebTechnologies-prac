@@ -59,7 +59,17 @@
 
     pp.forEach(function (i){
         console.log(i);
-    })
+    });
+
+    pp.map((i,index)=>{
+        console.log(index+" : "+i);
+    });
+
+    console.log(pp.sort());
+
+    console.log(pp.sort((a,b)=>a-b));
+
+    console.log(pp.sort((a,b)=>b-a));
 
 </script>
 </body>
