@@ -29,8 +29,9 @@
 
     //funtion expression
 
-    let fe=function (){
-        console.log("funtion expression");
+    const fe=function (){
+        console.log("funtion expression");//risk--- can be re assigned
+        //use const to avoid this risk
     }
     fe();
 
@@ -38,6 +39,19 @@
         console.log(name);
     }
     fe2("myname2");
+
+    //arrow funtion
+
+    let af=()=>{
+        console.log("arrow funtion");
+    }
+
+    af();
+
+    const af2=(name)=>{
+        console.log(name);
+    }
+    af2("sandula");
 
 
 </script>
