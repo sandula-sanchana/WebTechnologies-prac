@@ -51,7 +51,13 @@
     const af2=(name)=>{
         console.log(name);
     }
-    af2("sandula");
+    af2("sandula");  //return keyword not needed for single line
+
+    //funtion constructor
+
+    const fc=new Function("a","b","return a+b");
+    let y=fc(5,6);
+    console.log(y);
 
 
 </script>
